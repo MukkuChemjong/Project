@@ -16,11 +16,13 @@
 .logo{
     height: 95px;
     background-color: transparent;
+
+    margin-left: 65px;
 }
 
 .right-header{
     display: flex;
-    margin-right: 280px;
+    margin-right: 188px;
     justify-content: center;
     align-items: center;
 }
@@ -43,7 +45,7 @@
 .summary-section{
     display: flex;
     background-color: #f7f8ef;
-    height: 341px;
+    height: 541px;
     align-items: center;
 }
 
@@ -61,6 +63,13 @@
 .summary-subtext{
     font-size: 18px;
     color: #bd1519;
+
+    width: 528px;
+}
+
+.summary-image{
+    width: 505px;
+    height: 275px;
 }
 
 .signup{
@@ -75,4 +84,126 @@
 
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.moreinfo-section{
+    margin-left: 65px;
+    margin-right: 97px;
+}
+.moreinfo-textsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 14px;
+}
+
+.moreinfo-imagesection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.extrainfo-image{
+    height: 160px;
+    width: 211px;
+
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.extrainfo-text{
+    width: 211px;
+    color: #333333;
+}
+
+.quote-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    height: 463px;
+    background-color: #e5e7eb;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    height: 311px;
+    width: 647px;
+
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-source{
+    margin-top: 0;
+   text-align: end;
+
+   font-size: 20px;
+}
+
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.signup-container{
+    border-radius: 10px;
+    width: 1020px;
+    height: 157px;
+    background-color: #3b82f6;
+}
+
+.signup-title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+.textbutton-container{
+    display: flex;
+    justify-content: space-between;
+    height: 157px;
+    width: 925px;
+}
+
+.signup-text{
+    margin-left: 162px;
+    height: 120px;
+    width: 540px;
+
+    margin-top: 25px;
+}
+
+.signup-body{
+    color: white;
+    margin-top: 0;
+}
+
+.signup-button{
+    align-self: center;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+
+    background-color: #3882f6;
+    height: 30px;
+    width: 138px;
+    border-radius: 10px;
+}
+
+.copyright-container{
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
 }
